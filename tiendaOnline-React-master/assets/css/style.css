@@ -1,0 +1,276 @@
+.thumbnail img {
+    min-height: 150px;
+    height: 150px;
+}
+
+.form-group {
+    display: inline-block !important;
+}
+
+.line {
+    float: left;
+}
+
+.login {
+    background-image: url('/assets/img/login-fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    background-color: #636161;
+    background-blend-mode: multiply;
+}
+
+.login .form-container {
+    position: relative;
+    float: none;
+    margin: auto;
+    top: 25%;
+}
+
+.white-text {
+    color: black;
+}
+
+.media-object {
+    height: 75px;
+    min-height: 75px;
+    width: 75px;
+    min-width: 75px;
+}
+
+.tienda,
+.error {
+    background-image: url('/assets/img/main-fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    overflow: auto;
+}
+
+.error {
+    background-image: url('/assets/img/error-fondo.jpg');
+}
+
+.box {
+    background: #fff9;
+    border-radius: 0 0 5px 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    max-height: 85vh;
+    height: 100%;
+    padding-bottom: 20px
+}
+
+.carrito .card.horizontal {
+    margin-bottom: 0;
+}
+
+.carrito .card-action {
+    float: left;
+    width: 100%;
+    background: #eaeaea;
+    padding: 2px 20px;
+}
+
+.carrito .btn-floating.halfway-fab {
+    position: absolute;
+    right: 24px;
+    top: 20px;
+}
+
+.badge.carrito {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #8655c2b3;
+    height: auto;
+    border-radius: 5px;
+}
+
+.badge.carrito i {
+    margin: 0;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+}
+
+.lista-productos {
+    background: #fef5e74d;
+    float: left;
+    border-radius: 0;
+    padding: 0;
+    /* height: 85vh; */
+    overflow: auto;
+    position: relative;
+    display: block;
+    /* overflow: auto; */
+    z-index: 10;
+    width: 100%;
+}
+
+.item-counter {
+    position: absolute;
+    background: #14a2d1;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 9px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    left: calc(50% - 1px);
+    top: calc(50% - 0px);
+    line-height: 15px;
+}
+
+
+/*//////////////////////////////////*/
+
+.animated.fast {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.animated.slow {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDownBig {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInDownBig {
+    animation-name: fadeInDownBig;
+}
+
+@keyframes fadeInUpBig {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 2000px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInUpBig {
+    animation-name: fadeInUpBig;
+}
+
+.grayscale {
+    filter: grayscale(100);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% - 60px)
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+        color: red;
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+        color: black
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+}
+
+@media(min-width: 998px) {}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 650px;
+}
+
+.wrath-content-box {
+    padding: 15px;
+}
+
+.input-login {
+    margin-left: 150px;
+}
+
+.login-p {
+    color: white;
+}

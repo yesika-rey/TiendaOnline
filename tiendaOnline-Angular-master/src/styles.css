@@ -1,0 +1,7 @@
+body{
+  background-image: url("/assets/main-fondo.jpg");
+}
+
+.fondo-dark {
+	background-color: black;
+}
